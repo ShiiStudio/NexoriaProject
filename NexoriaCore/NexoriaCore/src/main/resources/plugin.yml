@@ -1,0 +1,12 @@
+name: NexoriaCore
+version: 4.2
+main: net.nexoria.core.NexoriaCore
+api-version: '1.21'
+
+commands:
+  pay:
+    description: Send Gold
+    usage: /pay <player> <amount>
+  death:
+    description: Kill yourself
+    usage: /death

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "kill_enemy": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"dead_knight\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "system:mobdrop/dead_knight"
+  }
+}

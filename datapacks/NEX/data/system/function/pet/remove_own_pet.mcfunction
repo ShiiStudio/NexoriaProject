@@ -1,0 +1,1 @@
+execute as @e[tag=nexo_pet] if score @s pet_owner = #owner pet_id run kill @s

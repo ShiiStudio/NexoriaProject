@@ -1,0 +1,25 @@
+{
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air",
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:vine",
+    "minecraft:glow_lichen",
+    "#minecraft:small_flowers",
+    "#minecraft:tall_flowers",
+    "#minecraft:buttons",
+    "minecraft:lever",
+    "#minecraft:signs",
+    "minecraft:redstone_wire",
+    "minecraft:torch",
+    "minecraft:wall_torch",
+    "minecraft:soul_torch",
+    "minecraft:soul_wall_torch"
+  ]
+}

@@ -1,0 +1,7 @@
+execute store result score #count shop run clear @s minecraft:iron_leggings[custom_data={nexoria_armor:"port_soldier_leggings"}]
+scoreboard players operation #gain shop = #count shop
+scoreboard players set #price shop 250
+scoreboard players operation #gain shop *= #price shop
+scoreboard players operation @s Gold += #gain shop
+execute if score #count shop matches 1.. run tellraw @s [{"text":"港兵の脚甲を ","color":"green"},{"score":{"name":"#count","objective":"shop"}},{"text":" 個売却しました。（+"},{"score":{"name":"#gain","objective":"shop"}},{"text":"G）"}]
+execute unless score #count shop matches 1.. run tellraw @s {"text":"港兵の脚甲を持っていません。","color":"red"}

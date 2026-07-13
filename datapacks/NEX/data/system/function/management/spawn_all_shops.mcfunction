@@ -1,0 +1,8 @@
+function system:management/spawn_velmire_weapon_shop
+function system:management/spawn_aster_general_shop
+function system:management/spawn_arbelle_weapon_shop
+function system:management/spawn_nareis_weapon_shop
+function system:management/spawn_coralis_weapon_shop
+function system:management/spawn_gather_shop
+function system:management/spawn_monster_shop
+function system:management/spawn_shintetsu_smith

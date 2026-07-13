@@ -1,0 +1,1 @@
+tellraw @s [{"text":"━━━━━━━━━━━━━━━━━━","color":"dark_green"},{"text":"\nVelmire製錬炉","color":"dark_green","bold":true},{"text":"\n\n▶ 鉄インゴット","color":"green","clickEvent":{"action":"run_command","value":"/function system:smelt/velmire/iron_menu"}},{"text":"\n━━━━━━━━━━━━━━━━━━","color":"dark_green"}]

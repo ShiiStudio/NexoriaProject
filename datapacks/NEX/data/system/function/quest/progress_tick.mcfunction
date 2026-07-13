@@ -1,0 +1,23 @@
+# 納品クエストの所持数を10tickごとにq_progressへ反映
+execute as @a[scores={q_active=19}] run function system:quest/delivery/progress/oak_log
+execute as @a[scores={q_active=20}] run function system:quest/delivery/progress/oak_bark
+execute as @a[scores={q_active=21}] run function system:quest/delivery/progress/spruce_log
+execute as @a[scores={q_active=22}] run function system:quest/delivery/progress/spruce_bark
+execute as @a[scores={q_active=23}] run function system:quest/delivery/progress/low_coal
+execute as @a[scores={q_active=24}] run function system:quest/delivery/progress/high_coal
+execute as @a[scores={q_active=25}] run function system:quest/delivery/progress/low_iron_ore
+execute as @a[scores={q_active=26}] run function system:quest/delivery/progress/high_iron_ore
+execute as @a[scores={q_active=27}] run function system:quest/delivery/progress/old_cloth
+execute as @a[scores={q_active=28}] run function system:quest/delivery/progress/bone_fragment
+execute as @a[scores={q_active=29}] run function system:quest/delivery/progress/spider_string
+execute as @a[scores={q_active=30}] run function system:quest/delivery/progress/wet_cloth
+execute as @a[scores={q_active=31}] run function system:quest/delivery/progress/sea_crystal
+execute as @a[scores={q_active=32}] run function system:quest/delivery/progress/rotten_bone
+execute as @a[scores={q_active=33}] run function system:quest/delivery/progress/rusted_iron
+execute as @a[scores={q_active=34}] run function system:quest/delivery/progress/strong_bone
+execute as @a[scores={q_active=35}] run function system:quest/delivery/progress/spider_fang
+execute as @a[scores={q_active=36}] run function system:quest/delivery/progress/sea_fragment
+execute as @a[scores={q_active=37}] run function system:quest/delivery/progress/deep_spike
+execute as @a[scores={q_active=38}] run function system:quest/delivery/progress/captain_emblem
+execute as @a[scores={q_active=39}] run function system:quest/delivery/progress/guardian_crystal
+execute as @a[scores={q_active=40}] run function system:quest/delivery/progress/ancient_guardian_fragment

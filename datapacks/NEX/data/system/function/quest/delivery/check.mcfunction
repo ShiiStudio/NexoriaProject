@@ -1,0 +1,24 @@
+execute unless score @s q_active matches 19..40 run tellraw @s {"text":"受注中のデイリーは納品クエストではありません。","color":"dark_green"}
+execute unless score @s q_active matches 19..40 run function system:quest/npc
+execute if score @s q_active matches 19 run function system:quest/delivery/oak_log
+execute if score @s q_active matches 20 run function system:quest/delivery/oak_bark
+execute if score @s q_active matches 21 run function system:quest/delivery/spruce_log
+execute if score @s q_active matches 22 run function system:quest/delivery/spruce_bark
+execute if score @s q_active matches 23 run function system:quest/delivery/low_coal
+execute if score @s q_active matches 24 run function system:quest/delivery/high_coal
+execute if score @s q_active matches 25 run function system:quest/delivery/low_iron_ore
+execute if score @s q_active matches 26 run function system:quest/delivery/high_iron_ore
+execute if score @s q_active matches 27 run function system:quest/delivery/old_cloth
+execute if score @s q_active matches 28 run function system:quest/delivery/bone_fragment
+execute if score @s q_active matches 29 run function system:quest/delivery/spider_string
+execute if score @s q_active matches 30 run function system:quest/delivery/wet_cloth
+execute if score @s q_active matches 31 run function system:quest/delivery/sea_crystal
+execute if score @s q_active matches 32 run function system:quest/delivery/rotten_bone
+execute if score @s q_active matches 33 run function system:quest/delivery/rusted_iron
+execute if score @s q_active matches 34 run function system:quest/delivery/strong_bone
+execute if score @s q_active matches 35 run function system:quest/delivery/spider_fang
+execute if score @s q_active matches 36 run function system:quest/delivery/sea_fragment
+execute if score @s q_active matches 37 run function system:quest/delivery/deep_spike
+execute if score @s q_active matches 38 run function system:quest/delivery/captain_emblem
+execute if score @s q_active matches 39 run function system:quest/delivery/guardian_crystal
+execute if score @s q_active matches 40 run function system:quest/delivery/ancient_guardian_fragment

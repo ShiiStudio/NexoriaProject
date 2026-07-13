@@ -1,0 +1,4 @@
+execute store result score #sold shop run clear @s minecraft:stone_sword[custom_data={nexoria_weapon:"guard_sword"}] 1
+execute if score #sold shop matches 1.. run scoreboard players add @s Gold 125
+execute if score #sold shop matches 1.. run tellraw @s {"text":"衛兵の剣を1個売却しました。（+125G）","color":"green"}
+execute unless score #sold shop matches 1.. run tellraw @s {"text":"衛兵の剣を持っていません。","color":"red"}

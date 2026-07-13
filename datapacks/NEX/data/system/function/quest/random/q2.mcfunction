@@ -1,0 +1,2 @@
+execute store result score #q2 q_daily run random value 1..42
+execute if score #q2 q_daily = #q1 q_daily run function system:quest/random/q2

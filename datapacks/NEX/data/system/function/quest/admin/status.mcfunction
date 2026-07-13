@@ -1,0 +1,2 @@
+tellraw @s [{"text":"q1=","color":"dark_green"},{"score":{"name":"#q1","objective":"q_daily"}},{"text":" q2=","color":"dark_green"},{"score":{"name":"#q2","objective":"q_daily"}},{"text":" q3=","color":"dark_green"},{"score":{"name":"#q3","objective":"q_daily"}}]
+tellraw @s [{"text":"active=","color":"dark_green"},{"score":{"name":"@s","objective":"q_active"}},{"text":" progress=","color":"dark_green"},{"score":{"name":"@s","objective":"q_progress"}},{"text":" clear=","color":"dark_green"},{"score":{"name":"@s","objective":"q_clear"}}]
